@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网站地图 - 可乐云</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .subpage-container { max-width: 860px; margin: 40px auto 80px; padding: 0 20px; }
+    .subpage-header { border-bottom: 1px solid var(--border-line); padding-bottom: 24px; margin-bottom: 36px; }
+    .subpage-header h1 { font-size: 2.2rem; color: var(--text-main); margin-bottom: 12px; }
+    .subpage-header p { color: var(--text-muted); font-size: 1.05rem; }
+    .sitemap-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .sitemap-card { background: var(--bg-surface); border: 1px solid var(--border-line); border-radius: 12px; padding: 26px; }
+    .sitemap-card h2 { font-size: 1.25rem; color: var(--accent-amber); margin-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 8px; }
+    .sitemap-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .sitemap-list a { color: var(--text-muted); text-decoration: none; font-size: 0.95rem; transition: color 0.2s; display: inline-flex; align-items: center; gap: 8px; }
+    .sitemap-list a:hover { color: var(--accent-amber); }
+    .back-home { display: inline-flex; align-items: center; gap: 6px; color: var(--accent-amber); text-decoration: none; margin-bottom: 24px; font-weight: 600; font-size: 0.9rem; }
+    @media (max-width: 600px) { .sitemap-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <svg width="34" height="34" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="22" fill="#e11d48" stroke="#f59e0b" stroke-width="2"/>
+          <path d="M14 34C18 34 20 28 24 28C28 28 30 34 34 34" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">可乐云 · 极速专线</span>
+      </a>
+      <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" target="_blank" rel="nofollow" class="btn-header-cta">返回控制台</a>
+    </div>
+  </header>
+
+  <div class="subpage-container">
+    <a href="index.html" class="back-home">&larr; 返回首页</a>
+
+    <div class="subpage-header">
+      <h1>网站地图 (Sitemap)</h1>
+      <p>可乐云官方网站完整架构与索引目录导航。</p>
+    </div>
+
+    <div class="sitemap-grid">
+      <!-- 核心页面导航 -->
+      <div class="sitemap-card">
+        <h2>核心页面</h2>
+        <ul class="sitemap-list">
+          <li><a href="index.html">&bull; 可乐云官方首页</a></li>
+          <li><a href="insights.html">&bull; 前沿专栏 (深度评测与网络工程洞察)</a></li>
+          <li><a href="about.html">&bull; 关于我们 (品牌理念与节点覆盖)</a></li>
+          <li><a href="terms.html">&bull; 服务条款 (使用规范与免责说明)</a></li>
+          <li><a href="privacy.html">&bull; 隐私政策 (严格零日志承诺)</a></li>
+        </ul>
+      </div>
+
+      <!-- 首页功能索引 -->
+      <div class="sitemap-card">
+        <h2>产品与方案索引</h2>
+        <ul class="sitemap-list">
+          <li><a href="index.html#pricing">&bull; 畅爽套餐价格对比</a></li>
+          <li><a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" target="_blank" rel="nofollow">&bull; 用户登录 / 快速注册</a></li>
+          <li><a href="https://tizilab.net/paihang/" target="_blank">&bull; 2026最新梯子推荐 (行业指南)</a></li>
+        </ul>
+      </div>
+
+      <!-- 前沿专栏全部深度文章 (6篇) -->
+      <div class="sitemap-card" style="grid-column: 1 / -1;">
+        <h2>前沿专栏深度评测与工程文章</h2>
+        <ul class="sitemap-list">
+          <li><a href="burst-network-review.html">&bull; 2026实测体验：可乐云极速专线在高并发与8K流媒体中的真实表现究竟如何？</a></li>
+          <li><a href="cross-border-latency-guide.html">&bull; 跨境网络延迟从何而来？从物理光缆到智能中继路由的降阻完全解析</a></li>
+          <li><a href="ai-prompt-streaming-speed.html">&bull; 告别Access Denied：深度优化大语言模型流式输出卡顿与握手报错指南</a></li>
+          <li><a href="netflix-regional-ip-secrets.html">&bull; 原生住宅IP与机房IP有何差异？流媒体平台非自制剧封禁防范机制深度剖析</a></li>
+          <li><a href="high-throughput-protocol-benchmark.html">&bull; 2026轻量化网络加速协议演进：从传统隧道到自适应流量伪装</a></li>
+          <li><a href="zero-log-privacy-standards.html">&bull; RAM内存无盘节点为何是隐私安全的未来？现代加速服务的加密边界探讨</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-nav">
+      <a href="sitemap.html">网站地图</a>
+      <a href="about.html">关于我们</a>
+      <a href="terms.html">服务条款</a>
+      <a href="privacy.html">隐私政策</a>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2026 可乐云 Keleyun. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
